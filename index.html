@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pushkin</title>
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="https://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($){
+            $('<style>'+
+                '.scrollTop'//
+            +'</style>').appendTo('body');
+            var
+            speed = 550,
+            $scrollTop = $('<a href="#" class="scrollTop">').appendTo('body');		
+            $scrollTop.click(function(e){
+                e.preventDefault();
+                $( 'html:not(:animated),body:not(:animated)' ).animate({ scrollTop: 0}, speed );
+            });
+        
+            //появление
+            function show_scrollTop(){
+                ( $(window).scrollTop() > 330 ) ? $scrollTop.fadeIn(700) : $scrollTop.fadeOut(700);
+            }
+            $(window).scroll( function(){ show_scrollTop(); } );
+            show_scrollTop();
+        });
+        </script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="uber">
+                <div class="logo">
+                    <a href="/" target="_blank"><img src="Stores/logo.svg"></a>
+                </div>
+            </div>
+            <div class="inter">
+                <div class="form">
+                    <a href="/"><button  class="button">Войти</button></a>
+                    <img src = "Stores/basket.png">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section1">
+        <div class="background row">
+            
+            <div class="tractir col-xs-12 col-md-6 col-lg-6 col-xl-5">
+                <h2>Трактир "Пушкин"</h2>
+                <div class="tractir_menu">
+                    <div class="tractir_menu_under">
+                        <div class="tractir_menu1">
+                            <div class="tractir_menu1_p">
+                                <p>₽₽₽ • Европейская</p>
+                            </div>
+                        </div>
+                        <div class="tractir_menu2">
+                            <div class="tractir_menu2_p">
+                                <p>40 - 50 мин</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="section2">
+            <div class="menu">
+                <div class="menu_spisok">
+                    <nav class="nav_menu">
+                        <ul class="nav_menu_ul">
+                            <li class="link"><a href="/">Закуски</a></li>
+                            <li class="link"><a href="/">Салаты</a></li>
+                            <li class="link"><a href="/">Супы</a></li>
+                            <li class="link"><a href="/">Горячие блюда</a></li>
+                            <li class="link"><a href="/">Гарниры</a></li>
+                            <li class="link"><a href="/">Десерты</a></li>
+                        </ul>
+                        <div class="nav_close">
+                            <span class="nav_close_line"></span>
+                            <span class="nav_close_line"></span>
+                        </div>
+                    </nav>
+                </div>
+                <div class="small_menu">
+                    <p class="small_menu_menu">Меню</p>  
+                    <div class="burger header_burger">
+                        <span class="burgel_line burgel_line_first"></span>
+                        <span class="burgel_line burgel_line_second"></span>
+                        <span class="burgel_line burgel_line_thrid"></span>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="section3">
+        <div class="zakuski">
+            <h2>Закуски</h2>
+            <div class="zakuski_main">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <a href="/"><div class="card">
+                            <div class="discription">
+                                <div class="discription2">
+                                    <div class="name">
+                                        <p>Сельдь на бородинском хлебе</p>
+                                    </div>
+                                    <div class="subname">
+                                        <p>С яйцом и огурцом</p>
+                                    </div>
+                                    <div class="cost1">
+                                        <p>240 ₽</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="Restaurant/image1.png" class="image">
+                            </div>
+                        </div></a>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <a href="/"><div class="card">
+                            <div class="discription">
+                                <div class="discription2">
+                                    <div class="name">
+                                        <p>Соленья ассорти</p>
+                                    </div>
+                                    <div class="subname">
+                                        <p></p>
+                                    </div>
+                                    <div class="cost1">
+                                        <p>320 ₽</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div>
+                                <img src="Restaurant/image2.png" class="image">
+                            </div>
+                        </div></a>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <a href="/"><div class="card">
+                            <div class="discription">
+                                <div class="discription2">
+                                    <div class="name">
+                                        <p>Грибы маринованные</p>
+                                    </div>
+                                    <div class="subname">
+                                        <p></p>
+                                    </div>
+                                    <div class="cost1">
+                                        <p>300 ₽</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="Restaurant/image3.png" class="image">
+                            </div>
+                        </div></a>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <a href="/"><div class="card">
+                            <div class="discription">
+                                <div class="discription2">
+                                    <div class="name">
+                                        <p>Сало домашнее с горчицей</p>
+                                    </div>
+                                    <div class="subname">
+                                        <p></p>
+                                    </div>
+                                    <div class="cost1">
+                                        <p>320 ₽</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="Restaurant/image4.png" class="image">
+                            </div>
+                        </div></a>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <a href="/"><div class="card">
+                            <div class="discription">
+                                <div class="discription2">
+                                    <div class="name">
+                                        <p>Малосольная семга</p>
+                                    </div>
+                                    <div class="subname">
+                                        <p></p>
+                                    </div>
+                                    <div class="cost1">
+                                        <p>390 ₽</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="Restaurant/image5.png" class="image">
+                            </div>
+                        </div></a>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <a href="/"><div class="card">
+                            <div class="discription">
+                                <div class="discription2">
+                                    <div class="name">
+                                        <p>Язык говяжий с хреном</p>
+                                    </div>
+                                    <div class="subname">
+                                        <p></p>
+                                    </div>
+                                    <div class="cost1">
+                                        <p>350 ₽</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="Restaurant/image6.png" class="image">
+                            </div>
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer class="f">
+        <div class="footer">
+            <div class="ubereats col-xs-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="img">
+                    <img src="Stores/white-logo.svg"> 
+                </div>
+                
+            </div>
+            <hr>
+                
+
+            <div class="triple-columns row">
+
+                <div class="column1 col-xs-12 col-md-4 col-lg-4 col-xl-4">
+                    <form class="form2">
+                        <img src="Stores/Shape.png" class="img_icon">
+                            <select size="1" class="select1">
+                                
+                                <option value="russian">русский</option>
+                                <option value="english">english</option>
+                            </select>
+                            
+                    </form>
+                    <div class="column1under col-xs-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class="column2under">  
+                            <p><span class="span1">#</span>UberEats</p>
+                            <div class="icons">
+                                <a href="https://www.facebook.com/" target="_blank"><img src="Stores/ic/24/social/facebook.svg"></a>
+                                <a href="https://twitter.com/" target="_blank"><img src="Stores/ic/24/social/twitter.svg"></a>
+                                <a href="https://www.instagram.com/" target="_blank"><img src="Stores/ic/24/social/instagram.svg"></a>
+                            </div>
+                        </div>  
+                    </div>
+                    
+                    
+                </div>
+                <div class="column2 col-xs-12 col-md-4 col-lg-4 col-xl-4">
+                    
+                    
+                            <a href="/" target="_blank" >Об UberEats</a><br>
+                            <a href="/" target="_blank"><span>Станьте партнёром по доставке</span></a><br>
+                            <a href="/" target="_blank"><span>Станьте парнёром-рестораном</span></a>
+                       
+                </div>
+                <div class="column3 col-xs-12 col-md-4 col-lg-4 col-xl-4">
+                    
+                            <a href="/" target="_blank"><span>Все города</span></a><br>
+                            <a href="/" target="_blank"><span>Цены</span></a><br>
+                            <a href="/" target="_blank"><span>Помощь</span></a><br>
+                            <a href="/" target="_blank"><span>FAQs</span></a>
+                     
+                </div>
+                
+            </div>
+            <hr>
+            <div class="applegoogle">
+                <div class="applestore"><a href="https://www.google.ru/" target="_blank"><img src="Stores/appstore.png"></a></div>
+                <div class="googleplay"><a href="https://www.google.ru/" target="_blank"><img src="Stores/googleplay.png"></a></div>
+                
+            </div>
+            <hr>
+            <div class="under row">
+                <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4"><a href="/" target="_blank"><span>© 2017 Uber Technologies Inc.</span></a></div>
+                <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4"><a href="/" target="_blank"><span>Обработка персональных данных</span></a></div>
+                <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4"><a href="/" target="_blank"><span>Пользовательское соглашение</span></a></div>
+            </div>
+        </div>
+        <!--<div class="button-up" id="b" style="display: block;"><img src="Stores/btn-up.svg" alt="btn-up" title="btn-up">
+		</div>-->
+    </footer>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

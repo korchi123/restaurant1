@@ -1,0 +1,383 @@
+/* roboto-100 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: local(''),
+         url('fonts/roboto-v29-latin-100.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/roboto-v29-latin-100.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-100italic - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    src: local(''),
+         url('fonts/roboto-v29-latin-100italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/roboto-v29-latin-100italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-300 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('fonts/roboto-v29-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/roboto-v29-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-300italic - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    src: local(''),
+         url('fonts/roboto-v29-latin-300italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/roboto-v29-latin-300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-regular - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('fonts/roboto-v29-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/roboto-v29-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-italic - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: local(''),
+         url('fonts/roboto-v29-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/roboto-v29-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-500 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('fonts/roboto-v29-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/roboto-v29-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-500italic - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    src: local(''),
+         url('fonts/roboto-v29-latin-500italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/roboto-v29-latin-500italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('fonts/roboto-v29-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/roboto-v29-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-700italic - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    src: local(''),
+         url('fonts/roboto-v29-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/roboto-v29-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-900 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('fonts/roboto-v29-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/roboto-v29-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-900italic - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 900;
+    src: local(''),
+         url('fonts/roboto-v29-latin-900italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/roboto-v29-latin-900italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+html { box-sizing: border-box;}
+*,*::before, *::after {box-sizing: inherit;}
+
+body {margin: 0; font-family: "Roboto", sans-serif;}
+* {margin: 0; padding: 0;}
+
+/*header*/
+header {height: 72px;
+    top:0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 3;
+    
+    background-color: white;
+    box-shadow: 0 3px 7px #E0E0E0;}
+.header {width: 1124px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    }
+
+.uber {display: flex;
+    align-items: center;
+  justify-content: flex-start;}
+
+
+
+    
+.inter {display: flex;
+        align-items: center;
+        justify-content: space-between;}
+.form {display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+.button {border-radius: 2px;
+    border:  1px solid #E0E0E0;
+    background-color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 700; }
+
+    @media screen and (max-width: 1167px) {.uber
+      /* CSS-стили */ {padding-left: 50px; }
+      }
+  @media screen and (max-width: 420px) {.uber
+        /* CSS-стили */ {padding-left: 25px;}
+        }
+    @media screen and (max-width: 1167px) { .inter
+          /* CSS-стили */ { padding-right: 50px;}
+          }
+      @media screen and (max-width: 420px) { .inter
+            /* CSS-стили */ { padding-right: 25px;}}
+
+.section1 {height: 364px; width: 100%;  margin: 72px auto 0 auto; display: flex; justify-content: center;
+  background-image: url(Restaurant/background.png); background-size: cover; background-position: center;}
+.background {max-width: 1124px; width: 100% ; height: 364px; display: flex; align-items: center;    }
+
+
+
+.tractir {height: 204px;  
+  background-color:white; 
+  z-index: 1; display: flex;flex-direction:column;  }
+.tractir h2 {text-align: center; padding-top: 30px; padding-bottom: 20px; font-size: 36px; width: 100%; font-weight: 400;}
+.tractir_menu { width: 100%;  height: 100%; display: flex; align-items: flex-end; }
+.tractir_menu_under {display: flex; align-items: center; width: 100%; margin-bottom: 5px;}
+.tractir_menu1  { display: flex; justify-content: center;   width: 50%;  text-align: center; 
+  font-size: 14px; padding-bottom:35px;}
+.tractir_menu2 {display: flex; justify-content: center;  align-items: center; width: 50%; 
+  text-align: center; padding-bottom:35px; font-size: 14px;}
+.tractir_menu2_p {border: 1px solid ; 
+  background-color: black; color: white; padding: 0.5rem 1.5rem; font-size: 14px; border-radius: 16px; }
+
+
+  @media screen and (max-width: 620px) {.section1
+    /* CSS-стили */ {height: 320px; }}
+    @media screen and (max-width: 1167px) {.section1
+      /* CSS-стили */ {padding-left: 50px; padding-right: 50px;}
+      }
+      @media screen and (max-width: 620px) {.tractir
+        /* CSS-стили */ {height: 160px; }}
+        @media screen and (max-width: 360px) {.tractir
+          /* CSS-стили */ {height: 220px; }}
+    
+    @media screen and (max-width: 420px) {.section1
+        /* CSS-стили */ {padding-left: 25px; padding-right: 25px; display: flex; align-items: flex-end;}
+        }
+        @media screen and (max-width: 750px) {.background
+          /* CSS-стили */ { display: flex; align-items: flex-end; justify-content: center;}
+          }
+          @media screen and (max-width: 750px) {.tractir
+            /* CSS-стили */ { margin-bottom: -70px;}
+            }
+            @media screen and (max-width: 750px) {.tractir_menu_under
+              /* CSS-стили */ {display: block;}
+              }
+              @media screen and (max-width: 750px) {.tractir_menu1
+                /* CSS-стили */ {display: flex; width: 100%; justify-content: center; margin-top: -10px;}
+                }
+                @media screen and (max-width: 750px) {.tractir_menu2
+                  /* CSS-стили */ {display: flex; width: 100%; justify-content: center; margin-top: -20px;}
+                  }
+
+.section2 {height: 80px; display: flex; justify-content: center; box-shadow: 0 3px 7px #E0E0E0; }
+.menu {max-width: 1124px; width: 100%; display: flex; align-items: center;}
+.menu_spisok {width: 100%;}
+.nav_menu_ul {display: flex; list-style-type: none;}
+.nav_menu_ul a {text-decoration: none; color: #626262;}
+.link {margin-left: 40px; transition: 0.4s; cursor: pointer;}
+.nav_menu_ul a:hover {color: #327430;}
+.link:first-child {margin-left: 0;}
+
+@media screen and (max-width: 750px) {.section2
+  /* CSS-стили */ { margin-top: 100px;}}
+  @media screen and (max-width: 1167px) {.section2
+    /* CSS-стили */ {padding-left: 50px; padding-right: 50px;}}
+
+
+.small_menu {display: flex; }
+
+.small_menu_menu {padding-right: 10px; display: none; position: relative;}
+.header_burger {width: 40px; height: 28px;  position: relative; cursor: pointer;}
+.burgel_line {display: block;
+    width: 100%; height: 2px; background-color: black; position: absolute;  display: none;}
+
+.burgel_line_first {top:0}
+.burgel_line_second {top:50%; transform: translateY(-50%);}
+
+.burgel_line_thrid {bottom: 0;}
+
+@media screen and (max-width: 750px) {.burgel_line 
+  /* CSS-стили */ { display: block;}.small_menu_menu{display: block; left: -35%; }
+  .menu {display: flex;}
+  .nav_menu{position: fixed; width: 100%; height: 100%; top:0; left: 0; background:white; z-index: 4; transform: translateX(100%);
+      transition: 0.2s all linear;}
+  .nav_menu_ul {display: flex; flex-wrap: wrap; padding:75px}
+  .nav_menu_active {transform: translateX(0);}
+  
+.link{width: 100%; margin-bottom: 20px; font-size: 32px; line-height: 48px;}
+.link:first-child {margin-left: 40px;}
+.nav_close{position: absolute; width: 40px; height: 40px; top:20px; right: 20px; z-index: 4;}
+.nav_close_line {display: block; height: 2px; background-color: black;position: absolute; top:50%; width: 100%;}
+.nav_close_line:first-child {transform: translateY(-50%) rotate(45deg);} 
+.nav_close_line:last-child {transform: translateY(-50%) rotate(-45deg);}
+.small_menu{width: 100%;}
+.burger {left: -25%;}
+}
+
+
+/*section3*/
+
+.zakuski {max-width: 1124px; width: 100%; margin: 0 auto 30px;}
+.zakuski a {text-decoration: none; color: #1D1D1D;}
+.zakuski h2 {padding: 50px 0 30px; font-weight: 300;}
+
+.card { height: 160px; border: 1px solid #F2F2F2;  display: flex; justify-content: space-between; margin-bottom: 47px; transition: 0.4s;}
+.card:hover { background-color: #D8D8D8;}
+
+.discription2 { margin-top: 15px; margin-left: 15px; margin-bottom: 15px; display: flex; flex-direction: column; height: 130px; }
+.image {height: 100%;}
+.name {}
+.subname {flex-grow: 1;padding-top: 10px; color: #626262;}
+.cost1 {color: #1D1D1D;}
+
+
+@media screen and (max-width: 1167px) {.section3
+  /* CSS-стили */ {padding-left: 50px; padding-right: 50px;}}
+  @media screen and (max-width: 420px) {.section3
+    /* CSS-стили */ {padding-left: 25px; padding-right: 25px;}}
+    @media screen and (max-width: 450px) {.card
+      /* CSS-стили */ {height: 102px; }}
+      @media screen and (max-width: 450px) { .discription2
+        /* CSS-стили */ {height: 90px; margin-top: 6px; margin-left: 6px; margin-bottom: 6px; }}
+
+
+/*footer*/
+footer { min-height: 552px; width: 100%; background-color: #262626;}
+.footer {box-sizing: border-box; max-width: 1124px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 552px;
+  background-color: #262626;
+  margin: 0 auto; 
+ 
+  }
+hr {size: 1px;
+margin:0;}
+ .ubereats {display: flex;
+     align-items: center;padding:30px 0}
+
+.triple-columns {padding: 40px 0;display: flex; justify-content: left;}
+.select1 { 
+  max-width: 227px;
+  width: 100%;
+  height: 40px;
+  border: 0;
+  background-color: #3B3B3B;
+  color: white;
+  outline:none;
+  overflow:hidden;
+  padding-left: 8px; }
+.form2 {height: 40px;
+        width: 100%;
+        
+        max-width: 227px;
+        background: #3B3B3B;
+        border-radius: 2px  ;
+        position: relative;
+        background-color: #3B3B3B;
+        display: flex; align-items: center; padding: 12px 0 12px 15px;
+  }
+ .span1{color: #57AD56;}
+ .column1under p{color: white;display: flex; align-items: center; height: 100%; }
+ .column1under { height: 50%;   }
+.column2under  {height: 50%;  }
+ .column1 {padding: 0;  }
+ .icons {  display: flex; height: 100%; align-items: center; margin-bottom: -10px;}
+
+ @media screen and (max-width: 750px) {.icons {  padding-top: 25px; }}
+ @media screen and (max-width: 750px) {.column1{  padding-left: 0;}}
+ @media screen and (max-width: 750px) {.column1under {  padding-top:15px; padding-left: 0; }}
+
+.column2 {line-height: 40px; font-size: 13px; color:white; 
+      padding: -8px; text-align: left;}
+.column2 a {text-decoration: none; color: white;}
+.column3 a {text-decoration: none; color: white;}
+
+.column3 {line-height: 40px; font-size: 13px; color:white}
+
+
+.applegoogle {display: flex; justify-content: center;}
+
+
+.applegoogle {padding: 40px 0;}
+.applestore {padding-right: 30px;}
+.googleplay {padding-left: 30px;}
+@media screen and (max-width: 330px) {.applestore
+  /* CSS-стили */ { padding-right: 5px;}}
+@media screen and (max-width: 330px) {.googleplay 
+  /* CSS-стили */ { padding-left: 5px;}}
+
+.under {display: flex; align-items: center; padding: 30px 0; color: white;}
+.under div {padding: 8px 0;}
+.under a {text-decoration: none; color: white;}
+@media screen and (max-width: 1167px) {.footer
+  /* CSS-стили */ {padding-left: 50px; padding-right: 50px;}
+  }
+
+@media screen and (max-width: 420px) {.footer
+    /* CSS-стили */ {padding-left: 25px; padding-right: 25px;}
+    }
+
+   
+
+/*.button-up {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  bottom: 24px;
+  right: 16px;
+  cursor: pointer;
+  display: none;
+  opacity: 0.5;
+  transition: opacity 0.5s ease 0s;}*/
+.scrollTop { position: fixed; z-index:9999; width: 80px;  height: 80px;  bottom: 24px;
+  right: 5%;  cursor: pointer;  display: none; opacity:0.5;
+        background-image:url(Stores/btn-up.png); background-size:  80px 80px;  }
+.scrollTop:hover{ opacity:1; transition: 0.4s; }
+
+@media screen and (max-width: 750px) {.scrollTop { width: 64px; height: 64px; background-size:  64px 64px;}}
